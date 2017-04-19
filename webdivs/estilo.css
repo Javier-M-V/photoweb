@@ -1,0 +1,130 @@
+
+	#cuerpo
+	{
+		background-color:hsl(0, 0%, 98%);
+	}
+	#titulo
+	{
+		color:hsl(0, 0%, 40%);
+		text-align:left;
+		font-family: Georgia;
+		font-size: 90;
+		height: 120px;
+		width: 100%;
+		position:relative;
+		top:70px;
+	}
+	#titulo2
+	{
+		color:hsl(0, 0%, 40%);
+		text-align:left;
+		font-family: Georgia;
+		font-size: 60;
+		height: 120px;
+		width: 100%;
+		position:relative;
+		top:99px;
+	}
+	#menuitem
+	{
+		overflow: hidden;
+		text-align:center;
+		font-family: Georgia;
+		font-size: 16;
+		float:right;
+		height: 100%;
+		width: 10%;
+		position:relative;
+		top:18px;
+		left:20px;
+
+		/*border-style:solid;
+		border-color: black;
+		border-width: 1px;*/
+	}
+	#menu
+	{
+		/*border-color: black;
+		border-width: 1px;
+		border-style: dotted;*/
+		height: 45px;
+		width: 100%;
+		margin-top: 5px;
+	}
+	#basegris
+	{
+		width: 100%;
+		height: 400px;
+		background-color:hsl(0, 0%, 40%);
+
+	}
+	#linea
+	{
+		width: 100%;
+		height: 4px;
+		background-color:hsl(0, 0%, 40%);
+	}
+	#login
+	{
+		color:rgb(77, 77, 77);
+		text-align:right;
+		font-family: Georgia;
+		font-size: 16;
+		margin-top: 10px;
+		margin-right: 10px;
+		float:right;
+		height: 60px;
+		position:relative;
+	}
+	#cajaretratos
+	{
+
+		height: 490px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+    	margin-right: 135px;
+    	margin-left: 135px;
+		background-color:hsl(0, 0%, 40%);
+		position:relative;
+	}
+	.retrato
+	{
+		
+		margin-top: 30px;
+		margin-bottom: 30px;
+		width: 20%;
+		float: left;
+		overflow: hidden;
+		text-align:center;
+	}
+	.referencias
+	{
+		color:hsl(0, 0%, 90%);
+		font-family: Georgia;
+		font-size: 16;
+		width: 20%;
+		float: left;
+		overflow: hidden;
+		text-align:center;
+		position:relative;
+		bottom:15px;	
+	}
+	.referencias:hover 
+	{
+		color:hsl(0, 0%, 70%);
+	}
+	a
+	{
+		color:rgb(77,77,77);
+		text-align:right;
+		font-family: Georgia;
+		font-size: 16;
+		text-decoration: none;
+		
+	}
+	a:hover
+	{
+		text-decoration:;
+		color:rgb(200,200,200);
+		
+	}
