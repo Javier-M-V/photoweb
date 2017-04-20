@@ -1,13 +1,7 @@
-
-	#cuerpo
-	{
-		background-color:hsl(0, 0%, 98%);
-	}
 	#titulo
 	{
 		color:hsl(0, 0%, 40%);
 		text-align:left;
-		font-family: Georgia;
 		font-size: 90;
 		height: 120px;
 		width: 100%;
@@ -18,7 +12,6 @@
 	{
 		color:hsl(0, 0%, 40%);
 		text-align:left;
-		font-family: Georgia;
 		font-size: 60;
 		height: 120px;
 		width: 100%;
@@ -29,7 +22,6 @@
 	{
 		overflow: hidden;
 		text-align:center;
-		font-family: Georgia;
 		font-size: 16;
 		float:right;
 		height: 100%;
@@ -37,16 +29,9 @@
 		position:relative;
 		top:20px;
 		left:20px;
-
-		/*border-style:solid;
-		border-color: black;
-		border-width: 1px;*/
 	}
 	#menu
 	{
-		/*border-color: black;
-		border-width: 1px;
-		border-style: dotted;*/
 		height: 45px;
 		width: 100%;
 		margin-top: 5px;
@@ -68,7 +53,6 @@
 	{
 		color:rgb(77, 77, 77);
 		text-align:right;
-		font-family: Georgia;
 		font-size: 16;
 		margin-top: 5px;
 		margin-right: 10px;
@@ -86,6 +70,19 @@
     	margin-left: 135px;
 		background-color:hsl(0, 0%, 40%);
 		position:relative;
+		border-radius: 3px 3px 3px 3px;
+	}
+	#cajalogin
+	{
+		height:350px; 
+		width:230px;
+		text-align: center;
+		background-color: hsl(0, 0%, 40%);
+
+  		margin-left: auto;
+  		margin-right: auto;
+  		margin-top: 200px;
+  		border-radius: 5px 5px 5px 5px;
 	}
 	.retrato
 	{
@@ -131,5 +128,7 @@
 	body
 	{
 		position:relative;
-		bottom:25px;	
+		bottom:25px;
+		font-family: Georgia;	
+		background-color:hsl(0, 0%, 98%);
 	}
