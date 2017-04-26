@@ -82,7 +82,7 @@
 		border-color: #666666;
   		margin-left: auto;
   		margin-right: auto;
-  		margin-top: 230px;
+  		margin-top: 240px;
   		border-radius: 5px 5px 5px 5px;
 	}
 	.retrato
@@ -140,7 +140,7 @@
 	body
 	{
 		position:relative;
-		bottom:25px;
+		bottom:15px;
 		font-family: Georgia;	
 		background-color:hsl(0, 0%, 98%);
 	}
