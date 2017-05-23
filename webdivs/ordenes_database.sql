@@ -22,7 +22,7 @@ CONSTRAINT fotografos_pk PRIMARY KEY(nombre)
 );
 
 insert into usuarios (usuario, contrasenya) 
-VALUES (JavierM, 1234);
+VALUES ('JavierM', '1234');
 
 insert into imagenes(id_imagen, ruta)
 VALUES(9,'annie.jpg)';
