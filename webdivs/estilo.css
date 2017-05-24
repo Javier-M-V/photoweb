@@ -85,6 +85,33 @@
   		margin-top: 240px;
   		border-radius: 5px 5px 5px 5px;
 	}
+	#bodyformula
+	{
+		background-color: hsl(0, 0%, 40%);	
+	}
+	#formula
+	{
+		height:250px; 
+		width:300px;
+		text-align: center;
+		background-color: hsl(0, 0%, 98%);
+  		margin-left: auto;
+  		margin-right: auto;
+  		margin-top: 230px;
+  		border-radius: 10px 10px 10px 10px;
+	}
+	.objetosformulario
+	{
+		margin-top: 10px;
+		float: left;
+		margin-left: 25px;
+		margin-right: 10px;
+		text-align: left;
+		width: 100%;
+
+
+	}
+
 	.retrato
 	{
 		
@@ -137,10 +164,10 @@
 		color:rgb(200,200,200);
 		
 	}
-	body
+	/*body
 	{
 		position:relative;
 		bottom:15px;
 		font-family: Georgia;	
 		background-color:hsl(0, 0%, 98%);
-	}
+	}*/
