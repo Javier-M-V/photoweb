@@ -46,8 +46,7 @@ if(isset($_POST['usuario']))
 	}
 	if($control==true)
 	{
-		pagina("Ese usuario ya existe");
-			
+		pagina("Ese usuario ya existe");		
 	}
 	else
 	{
