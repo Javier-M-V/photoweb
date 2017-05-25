@@ -28,7 +28,7 @@ function pagina($mensaje)
 			<div>'.$mensaje.'</div>
 				</body>
 			</html>';
-}
+}/*SELECT count (*) FROM USUARIOS WHERE USER igual  USER*/
 if(isset($_POST['usuario']))
 {
 
