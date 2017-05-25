@@ -53,17 +53,15 @@ if(isset($_POST['usuario']))
 		$query="INSERT INTO usuarios (usuario, contrasenya) VALUES ('".$_POST['usuario']."','".$_POST['password']."');";
 		$conexion->query($query);
 		pagina("Usuario registrado correctamente");
-
 	}
 	unset($_POST['usuario']);
 	unset($_POST['contraenya']);
 }
 else
 {
-
 	pagina("");
 		//if($_POST['usuario']=="")
-			//unset($_POST['usuario']);
+		//unset($_POST['usuario']);
 }
 ?>
 

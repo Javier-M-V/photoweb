@@ -8,9 +8,11 @@
 </head>
 <body id="cuerpo">
 	<?php
+
 	$conexion=new mysqli('localhost','root','','photoweb');
 	$conexion->set_charset("utf8");
-	$peticion="SELECT * FROM fotografos WHERE nombre='Robert Cappa'";
+
+	$peticion="SELECT * FROM fotografos WHERE nombre='Steve McCurry'";
 	$resultado=$conexion->query($peticion);
 	$fila=$resultado->fetch_assoc();
 	?>
@@ -26,25 +28,16 @@
 	<div id="basefotografos" align="center">
 		<div id="bannerizquierdo">
 			<?php echo'<span id="retratobio"><img class="circulo" height=100px" width="100px" src="./retratos/'.$fila['rutaretrato'].'"> </span>';?>
-			<?php echo '<span id="quote">"'.$fila['quote'].'"</span>';?>
-			<?php echo '<span id="bio">'.$fila['biografia'].'</span>';?>
+			<?php echo '<span id="quote">"'.$fila['quote'].'"</span>'; ?>
+			<?php echo '<span id="bio">'.$fila['biografia'].'</span>'; ?>
 		</div>
-		<?php
-		$peticion="SELECT * FROM imagenes WHERE autor='Robert Cappa' ORDER BY referencia_por_autor ASC";
-		$resultado=$conexion->query($peticion);
-		?>
 		<div id="bannerderecho">
-			<?php
-				$fila=$resultado->fetch_assoc();
-				echo '<span class="foto_fotografo"><img height=%px" width="600px" src="./fotografos/cappa/'.$fila['ruta'].'"></span>';
-				while ($fila=$resultado->fetch_assoc())
-				{
-					echo '<span class="foto_fotografo"><img height=%px" width="370px" src="./fotografos/cappa/'.$fila['ruta'].'"></span>';
-				}
-			?>
+			<span class="foto_fotografo"><img height=%px" width="600px" src="./fotografos/cappa/omaha.jpg"></span>
+			<span><img height=%px" width="400px" src="./fotografos/cappa/omaha.jpg"></span>
 		</div>
 	</div>
 	<div id="linea" align="center"></div>
 	<div id="login" align="center" class="ancho"> <a href="login.html">Login</a></div>
 </body>
-</html>
+</html>'
+?>
