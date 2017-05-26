@@ -132,5 +132,21 @@ VALUES(5,'madre.jpg','Robert Cappa');
 insert into imagenes(referencia_por_autor, ruta, autor)
 VALUES(6,'refugiados.jpg','Robert Cappa');
 
+insert into imagenes(referencia_por_autor, ruta, autor)
+VALUES(1,'paso.jpg','Rafael Sanz Lobato');
+
+insert into imagenes(referencia_por_autor, ruta, autor)
+VALUES(2,'retrato.jpg','Rafael Sanz Lobato');
+
+insert into imagenes(referencia_por_autor, ruta, autor)
+VALUES(3,'bodegón.jpg','Rafael Sanz Lobato');
+
+insert into imagenes(referencia_por_autor, ruta, autor)
+VALUES(4,'sombreros.jpg','Rafael Sanz Lobato');
+
+insert into imagenes(referencia_por_autor, ruta, autor)
+VALUES(5,'matanza.jpg','Rafael Sanz Lobato');
+
+
 /*lo que sigue está sin subir*/
 
