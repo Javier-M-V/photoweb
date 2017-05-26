@@ -10,7 +10,7 @@
 	<?php
 	$conexion=new mysqli('localhost','root','','photoweb');
 	$conexion->set_charset("utf8");
-	$peticion="SELECT * FROM fotografos WHERE nombre='Robert Cappa'";
+	$peticion="SELECT * FROM fotografos WHERE nombre='Rafael Sanz Lobato'";
 	$resultado=$conexion->query($peticion);
 	$fila=$resultado->fetch_assoc();
 	?>
@@ -30,37 +30,37 @@
 			<?php echo '<span id="bio">'.$fila['biografia'].'</span>';?>
 		</div>
 		<?php
-		$peticion="SELECT * FROM imagenes WHERE autor='Robert Cappa' ORDER BY referencia_por_autor ASC";
+		$peticion="SELECT * FROM imagenes WHERE autor='Rafael Sanz Lobato' ORDER BY referencia_por_autor ASC";
 		$resultado=$conexion->query($peticion);
 		?>
 		<div id="bannerderecho">
 			<div id="derecho1"><!--bloque uno de fotos-->
 				<?php
 					$fila=$resultado->fetch_assoc();
-					echo '<span class="foto_fotografo"><img height=100%" width="%px" src="./fotografos/cappa/'.$fila['ruta'].'"></span>';?>
+					echo '<span class="foto_fotografo"><img height=100%" width="%px" src="./fotografos/sanz/'.$fila['ruta'].'"></span>';?>
 			</div>
 			<div id="derecho2"><!--bloque dos de fotos-->
 				<div class="region_iz">
 					<?php
 					$fila=$resultado->fetch_assoc();
-					echo '<span class="foto_fotografo"><img height="100%" width="%" src="./fotografos/cappa/'.$fila['ruta'].'"></span>';?>
+					echo '<span class="foto_fotografo"><img height="100%" width="%" src="./fotografos/sanz/'.$fila['ruta'].'"></span>';?>
 				</div>
 				<div class="region_der">
 					<?php
 					$fila=$resultado->fetch_assoc();
-					echo '<span "class="foto_fotografo"><img height="100%" width="%" src="./fotografos/cappa/'.$fila['ruta'].'"></span>';?>
+					echo '<span "class="foto_fotografo"><img height="100%" width="%" src="./fotografos/sanz/'.$fila['ruta'].'"></span>';?>
 				</div>					
 			</div>
 			<div id="derecho3"><!--bloque tres de fotos-->
 				<div class="region_iz2">
 					<?php
 					$fila=$resultado->fetch_assoc();
-					echo '<span"class="foto_fotografo"><img height="100%" width="%" src="./fotografos/cappa/'.$fila['ruta'].'"></span>';?>
+					echo '<span"class="foto_fotografo"><img height="100%" width="%" src="./fotografos/sanz/'.$fila['ruta'].'"></span>';?>
 				</div>
 				<div class="region_der2">
 					<?php
 					$fila=$resultado->fetch_assoc();
-					echo '<span class="foto_fotografo"><img height="%" width="100%" src="./fotografos/cappa/'.$fila['ruta'].'"></span>';
+					echo '<span class="foto_fotografo"><img height="100%" width="%" src="./fotografos/sanz/'.$fila['ruta'].'"></span>';
 					mysqli_close($conexion);?>
 				</div>
 			</div>

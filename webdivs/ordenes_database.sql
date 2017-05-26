@@ -142,10 +142,41 @@ insert into imagenes(referencia_por_autor, ruta, autor)
 VALUES(3,'bodegón.jpg','Rafael Sanz Lobato');
 
 insert into imagenes(referencia_por_autor, ruta, autor)
+
 VALUES(4,'sombreros.jpg','Rafael Sanz Lobato');
 
-insert into imagenes(referencia_por_autor, ruta, autor)
-VALUES(5,'matanza.jpg','Rafael Sanz Lobato');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(1,'afgana.jpg','Steve McCurry','horizontal');
+
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(2,'train.jpg','Steve McCurry','horizontal');
+
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(2,'retrato.jpg','Steve McCurry','vertical');
+
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(4,'burma.jpg','Steve McCurry','vertical');
+
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(5,'geisha.jpg','Steve McCurry','horizontal');
+
+
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(1,'ejecucion.jpg','Horst Faas','horizontal');
+
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(2,'helicopteros.jpg','Horst Faas','horizontal');
+
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(2,'warishell.jpg','Horst Faas','vertical');
+
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(4,'grupo.jpg','Horst Faas','vertical');
+
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(5,'niños.jpg','Horst Faas','horizontal');
+
+
 
 
 /*lo que sigue está sin subir*/
