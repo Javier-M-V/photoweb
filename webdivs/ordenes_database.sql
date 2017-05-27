@@ -54,9 +54,6 @@ VALUES(10,'newton.jpg');
 insert into imagenes(id_imagen, ruta)
 VALUES(7,'sanz.jpg');
 
-insert into fotografos(nombre, biografia, quote, rutaretrato)
-VALUES('Robert Cappa','Fue pareja sentimental de la fotógrafa Gerda Taro y juntos fotografiaban con el seudónimo "Robert Capa"; siendo difícil saber qué fotos son de cada uno. Cubrieron diferentes conflictos: la Guerra Civil Española, la Segunda guerra sino-japonesa, la Segunda Guerra Mundial (en Londres, África del Norte, Italia, la batalla de Normandía en la playa de Omaha y la liberación de París), la guerra árabe-israelí de 1948 y la primera Guerra de Indochina. En París en 1947, fundó, junto con David "Chim" Seymour, Henri Cartier-Bresson, George Rodger y William Vandivert, la organización Magnum Photos, la primera agencia de cooperación para fotógrafos independientes de todo el planeta.','Si tus fotos no son lo suficientemente buenas, es que no te has acercado lo suficiente.
-', 'capa.jpg');
 
 /*LOBATO SUBIDO*/
 insert into fotografos(nombre, biografia, quote, rutaretrato)
@@ -112,7 +109,6 @@ insert into fotografos(nombre, biografia, quote, rutaretrato)
 VALUES('Henry Cartier-Bresson','Henri Cartier Bresson (22 de agosto de 1908 - 3 de agosto de 2004)1 fue un célebre fotógrafo francés considerado por muchos el padre del fotorreportaje. Predicó siempre con la idea de atrapar el instante decisivo, versión traducida de sus "imágenes a hurtadillas". Se trataba, pues, de poner la cabeza, el ojo y el corazón en el mismo momento en el que se desarrolla el clímax de una acción. Fue uno de los mejores fotografos,padre del documentalismo
 A lo largo de su carrera, tuvo la oportunidad de retratar a personajes como Pablo Picasso, Henri Matisse, Marie Curie, Édith Piaf, Fidel Castro y Ernesto "Che" Guevara. También cubrió importantes eventos, como la muerte de Gandhi, la Guerra Civil Española, donde filmó el documental sobre el bando republicano "Victorie de la vie", la SGM, en la que estuvo en la Unidad de Cine y Fotografía del ejército galo o la entrada triunfal de Mao Zedong a Pekín. Cartier Bresson fue el primer periodista occidental que pudo visitar la Unión Soviética tras la muerte de Stalin.
 Su obra fue expuesta, en el parisino museo del Louvre en 1955.Fue cofundador de la Agencia Magnum.','Durante el trabajo, usted tiene que estar seguro de que no ha dejado ningún agujero, que ha capturado todo, porque después será demasiado tarde','bresson.jpg');
-
 
 
 insert into imagenes(referencia_por_autor, ruta, autor)
@@ -176,8 +172,71 @@ VALUES(4,'grupo.jpg','Horst Faas','vertical');
 insert into imagenes(referencia_por_autor, ruta, autor,alineación)
 VALUES(5,'niños.jpg','Horst Faas','horizontal');
 
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(1,'vulture.jpg','Kevin Carter','horizontal');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(2,'execution.jpg','Kevin Carter','horizontal');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(3,'kid.jpg','Kevin Carter','vertical');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(4,'soldier.jpg','Kevin Carter','vertical');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(5,'magic.jpg','Kevin Carter','horizontal');
 
 
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(1,'stars.jpg','Annie Leibovitz','horizontal');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(2,'isabel.jpg','Annie Leibovitz','horizontal');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(3,'actriz.jpg','Annie Leibovitz','vertical');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(4,'demimoore.jpg','Annie Leibovitz','vertical');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(5,'kateJohn.jpg','Annie Leibovitz','horizontal');
+
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(1,'bowie.jpg','Helmut Newton','horizontal');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(2,'rampling.jpg','Helmut Newton','horizontal');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(3,'foster.jpg','Helmut Newton','vertical');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(4,'grace.jpg','Helmut Newton','vertical');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(5,'joaquin.jpg','Helmut Newton','horizontal');
+
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(1,'solarización.jpg','Man Ray','horizontal');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(2,'eye.jpg','Man Ray','horizontal');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(3,'rayograma.jpg','Man Ray','vertical');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(4,'violin.jpg','Man Ray','vertical');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(5,'chica.jpg','Man Ray','horizontal');
+
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(1,'cuchillo.jpg','Chema Madoz','horizontal');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(2,'mente.jpg','Chema Madoz','horizontal');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(3,'tenedor.jpg','Chema Madoz','vertical');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(4,'chicacopa.jpg','Chema Madoz','vertical');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(5,'boom.jpg','Chema Madoz','horizontal');
+
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(1,'ciclista.jpg','Henri Cartier-Bresson','horizontal');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(2,'carreras.jpg','Henri Cartier-Bresson','horizontal');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(3,'salto.jpg','Henri Cartier-Bresson','vertical');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(4,'señor.jpg','Henri Cartier-Bresson','vertical');
+insert into imagenes(referencia_por_autor, ruta, autor,alineación)
+VALUES(5,'calgon.jpg','Henri Cartier-Bresson','horizontal');
 
 /*lo que sigue está sin subir*/
-
