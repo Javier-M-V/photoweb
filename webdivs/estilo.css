@@ -1,18 +1,22 @@
-	#titulo
+	body
+	{	
+		font-family: Georgia;	
+	}
+	#titulo/*Título de página principal*/
 	{
 		color:hsl(0, 0%, 40%);
 		text-align:left;
-		font-size: 90;
+		font-size: 90px;
 		height: 120px;
 		width: 100%;
 		position:relative;
 		top:75px;
 	}
-	#titulo2
+	#titulo2/*Layout general*/
 	{
 		color:hsl(0, 0%, 40%);
 		text-align:left;
-		font-size: 60;
+		font-size: 60px;
 		height: 120px;
 		width: 100%;
 		position:relative;
@@ -43,134 +47,13 @@
 		background-color:hsl(0, 0%, 40%);
 
 	}
-	#linea/*LINEA gris de adorno*/
+	#linea/*Línea gris de adorno*/
 	{
 		width: 100%;
 		height: 4px;
 		background-color:hsl(0, 0%, 40%);
 	}
-
-	/*PAGINA PROPIA DE CADA FOTOGRAFO*/
-	#basefotografos
-	{
-		width: 100%;
-		height: 1200px;
-		background-color:hsl(0, 0%, 98%);
-		margin-top: 10px;
-		margin-bottom: 10px;
-
-	}/*CONTENEDOR DEL LAYOUT DE LA BIO*/
-	#bannerizquierdo
-	{
-		width: 30%;
-		height: 1200px;
-		background-color:hsl(0, 0%, 40%);
-		float: left;	
-	}/*Contenedor del LAYOUT DE LAS FOTOS*/
-	#bannerderecho
-	{
-		width: 70%;
-		height: 1200px;
-		float: left;	
-	}
-	#quote
-	{
-
-		margin-top: 25px;
-		margin-bottom: 25px;
-		text-align: center;
-		float: left;
-		color:hsl(0, 0%, 98%);
-		font-style: oblique;
-		margin-right: 7px;
-		margin-left: : 7px;
-	}
-	#bio
-	{
-		font-size: 15;
-		text-align: center;
-		color:hsl(0, 0%, 98%);
-		text-align: justify;
-    	text-justify: inter-word;
-		margin-right: 15px;
-		margin-left:15px;
-		float: right;
-	}
-	/*#retratobio 
-	{
-		/*position:relative;  TODO ESTO SE TIENE QUE DEPURAR
-		top:20px;
-		margin-top: 20px;
-		overflow: hidden;
-		/*clear:left;*/
-	}/*LAYOUT DE LAS FOTOS*/
-	.foto_fotografo
-	{
-	
-		text-align: center;
-
-	}/*LAYOUT DE LAS FOTOS*/
-	#derecho1
-	{
-		height:400px;
-		/*background-color: pink; */
-		margin-bottom: 10px;
-		margin-left:10px;
-	}/*LAYOUT DE LAS FOTOS*/
-	#derecho2
-	{
-		height:350px; 
-		/*background-color: red;*/
-		margin-bottom: 10px;
-		margin-left:10px;
-	}/*LAYOUT DE LAS FOTOS*/
-	#derecho3
-	{
-		height:430px; 
-		/*background-color: black;*/
-		margin-bottom: 10px;
-		margin-left:10px;
-	}/*LAYOUT DE LAS FOTOS*/
-	.region_iz
-	{
-		width: 50%;
-		height: 350px;
-		float: left;
-		/*background-color: green;*/
-	}/*LAYOUT DE LAS FOTOS*/
-	.region_der
-	{
-		width: 50%;
-		height: 350px;
-		float: left;
-		/*background-color: yellow;*/
-	}
-	.region_iz2
-	{
-		width: 40%;
-		height: 430px;
-		float: left;
-		/*background-color: brown;*/
-	}/*LAYOUT DE LAS FOTOS*/
-	.region_der2
-	{
-		width: 60%;
-		height: 430px;
-		float: left;
-		/*background-color: orange;*/
-	}
-	#login
-	{
-		color:rgb(77, 77, 77);
-		text-align:right;
-		font-size: 16;
-		margin-top: 5px;
-		margin-right: 10px;
-		float:right;
-		height: 60px;
-		position:relative;
-	}
-	#cajaretratos
+	#cajaretratos/*Página general de fotógrafos*/
 	{
 
 		height: 490px;
@@ -181,44 +64,6 @@
 		background-color:hsl(0, 0%, 40%);
 		position:relative;
 		border-radius: 3px 3px 3px 3px;
-	}/*PROPIEDADES BÁSICAS DE LA CAJITA DE LOGIN*/
-	#cajalogin
-	{
-		height:217px; 
-		width:230px;
-		text-align: center;
-		background-color: hsl(0, 0%, 98%);
-		border:1px solid;
-		border-color: #666666;
-  		margin-left: auto;
-  		margin-right: auto;
-  		margin-top: 240px;
-  		border-radius: 5px 5px 5px 5px;
-	}
-	/*FORMULARIO*/
-	#bodyformula
-	{
-		background-color: hsl(0, 0%, 40%);	
-	}
-	#formula
-	{
-		height:250px; 
-		width:300px;
-		text-align: center;
-		background-color: hsl(0, 0%, 98%);
-  		margin-left: auto;
-  		margin-right: auto;
-  		margin-top: 230px;
-  		border-radius: 10px 10px 10px 10px;
-	}
-	.objetosformulario
-	{
-		margin-top: 10px;
-		float: left;
-		margin-left: 25px;
-		margin-right: 10px;
-		text-align: left;
-		width: 100%;
 	}
 	.retrato
 	{
@@ -242,7 +87,178 @@
 		position:relative;
 		bottom:15px;	
 	}
-	.referencias:hover 
+	#basefotografos /*Página personal de fotógrafo*/
+	{
+		width: 100%;
+		height: 1200px;
+		background-color:hsl(0, 0%, 98%);
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+	}
+	#bannerizquierdo/*Contenedor del layout de la bio*/
+	{
+		width: 30%;
+		height: 1200px;
+		background-color:hsl(0, 0%, 40%);
+		float: left;	
+	}
+	#quote
+	{
+
+		margin-top: 25px;
+		margin-bottom: 25px;
+		text-align: center;
+		float: left;
+		color:hsl(0, 0%, 98%);
+		font-style: oblique;
+		margin-right: 7px;
+		margin-left: 7px;
+	}
+	#bio
+	{
+		font-size: 15;
+		text-align: center;
+		color:hsl(0, 0%, 98%);
+		text-align: justify;
+    	text-justify: inter-word;
+		margin-right: 15px;
+		margin-left:15px;
+		float: right;
+	}
+	img.circulo
+	{
+		border-radius: 50%;
+		margin-top: 20px;
+		text-align: center;
+	}
+	#bannerderecho/*Contenedor del layout de las fotos*/
+	{
+		width: 70%;
+		height: 1200px;
+		float: left;	
+	}
+	.foto_fotografo /*LAYOUT DE LAS FOTOS*/
+	{
+		text-align: center;
+	}
+	#derecho1
+	{
+		height:400px;
+		/*background-color: pink; */
+		margin-bottom: 10px;
+		margin-left:10px;
+	}
+	#derecho2
+	{
+		height:350px; 
+		/*background-color: red;*/
+		margin-bottom: 10px;
+		margin-left:10px;
+	}
+	#derecho3
+	{
+		height:430px; 
+		/*background-color: black;*/
+		margin-bottom: 10px;
+		margin-left:10px;
+	}
+	.region_iz
+	{
+		width: 50%;
+		height: 350px;
+		float: left;
+		/*background-color: green;*/
+	}
+	.region_der
+	{
+		width: 50%;
+		height: 350px;
+		float: left;
+		/*background-color: yellow;*/
+	}
+	.region_iz2
+	{
+		width: 40%;
+		height: 430px;
+		float: left;
+		/*background-color: brown;*/
+	}
+	.region_der2
+	{
+		width: 60%;
+		height: 430px;
+		float: left;
+		/*background-color: orange;*/
+	}
+	#login /*layout general de la página de login*/
+	{
+		color:rgb(77, 77, 77);
+		text-align:right;
+		font-size: 16;
+		margin-top: 5px;
+		margin-right: 10px;
+		float:right;
+		height: 60px;
+		position:relative;
+	}
+	#cajalogin
+	{
+		height:217px; 
+		width:230px;
+		text-align: center;
+		background-color: hsl(0, 0%, 98%);
+		border:1px solid;
+		border-color: #666666;
+  		margin-left: auto;
+  		margin-right: auto;
+  		margin-top: 240px;
+  		border-radius: 5px 5px 5px 5px;
+	}
+	#bodyformulario /*Formulario de registro*/
+	{
+		background-color: hsl(0, 0%, 40%);	
+	}
+	#nombreshutter 
+	{
+		text-align:left;
+		font-size: 200%;
+		color:hsl(0, 0%, 98%);
+		text-align:left;
+		width: 100%;
+		position:relative;
+		top:185px;
+		left:539px;
+	}
+	#cajaformulario /*layout de la caja de registro*/
+	{
+		height:280px; 
+		width:300px;
+		text-align: center;
+		background-color: hsl(0, 0%, 98%);
+  		margin-left: auto;
+  		margin-right: auto;
+  		margin-top: 185px;
+  		border-radius: 10px 10px 10px 10px;
+	}
+	#resultadoregistro
+	{
+		
+		/*NO CONSIGO BAJAR ESTA MIERDA HORRIPILANTE*/
+		margin:auto; 
+		
+	}
+	.objetosformulario
+	{
+		clear: left;
+		margin-top: 10px;
+		float: left;
+		margin-left: 25px;
+		margin-right: 10px;
+		text-align: left;
+		width: 100%;
+	}
+	.referencias:hover /*comportamiento de todos los enlaces*/
 	{
 		color:hsl(0, 0%, 70%);
 	}
@@ -263,23 +279,10 @@
 		text-align:right;
 		font-family: Georgia;
 		font-size: 16;
-		text-decoration: none;
-		
+		text-decoration: none;	
 	}
 	a:hover
 	{
-		text-decoration:;
-		color:rgb(200,200,200);
-		
-	}
-	img.circulo
-	{
-		border-radius: 50%;
-		margin-top: 20px;
-		text-align: center;
-	}
-	body
-	{
-		
-		font-family: Georgia;	
+		/*text-decoration:;*/
+		color:rgb(200,200,200);	
 	}

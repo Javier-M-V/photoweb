@@ -3,35 +3,36 @@
 $conexion=new mysqli('localhost','root','','photoweb');
 $conexion->set_charset("utf8");
 
-function pagina($mensaje)
+function pagina($resultadoregistro)
 {
 	echo'<!DOCTYPE html>
-		<html>
-
+	<html>
 		<head>
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 			<link rel="stylesheet" type="text/css" href="estilo.css">
 			<title></title>
 		</head>
-		<body id="bodyformula"> 
-		<div id="formula">
+		<body id="bodyformulario"> 
+		<div id="nombreshutter"><p>Shutter</p></div>
+		<div id="cajaformulario">
 			<div style="margin-top: 20px;">
-			<form action="formulario.php" method="post">
-				<span class="objetosformulario">
-						Usuario: <input type="text" name="usuario"><br>
-						Contraseña: <input  type="password" name="password"><br>
-						Confirmar contraseña: <input  type="password" name="password2"><br>
-						e-mail: <input type="text" name="user"><br>
-				</span>
-				<button style="margin:auto;" type="submit">Completar registro</button>
-			</form>
-			<div>'.$mensaje.'</div>
-				</body>
-			</html>';
+				<form action="formulario.php" method="post">
+					<span class="objetosformulario">
+							Usuario: <input type="text" name="usuario"><br>
+							Contraseña: <input  type="password" name="password"><br>
+							Confirmar contraseña: <input  type="password" name="password2"><br>
+							e-mail: <input type="text" name="user"><br>
+					</span>
+					<button style="margin:auto; margin-top:5px;" type="submit">Completar registro</button>
+				</form>
+				<span id="resultadoregistro">'.$resultadoregistro.'</span>
+			</div>
+		</div>
+		</body>
+	</html>';
 }/*SELECT count (*) FROM USUARIOS WHERE USER igual  USER*/
 if(isset($_POST['usuario']))
 {
-
 	$query="SELECT * FROM usuarios;";
 	$resultado_query=$conexion->query($query);
 	$control=false;
@@ -41,18 +42,17 @@ if(isset($_POST['usuario']))
 		{
 			$control=true;
 			break;
-
 		}
 	}
-	if($control==true)
+	if($control==true) 
 	{
-		pagina("Ese usuario ya existe");		
+		pagina("Ese nombre de usuario ya existe :(");		
 	}
 	else
 	{
 		$query="INSERT INTO usuarios (usuario, contrasenya) VALUES ('".$_POST['usuario']."','".$_POST['password']."');";
 		$conexion->query($query);
-		pagina("Usuario registrado correctamente");
+		pagina("Registro completo :D");
 	}
 	unset($_POST['usuario']);
 	unset($_POST['contraenya']);
