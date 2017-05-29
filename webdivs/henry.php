@@ -10,12 +10,14 @@
 	<?php
 	$conexion=new mysqli('localhost','root','','photoweb');
 	$conexion->set_charset("utf8");
-	$peticion="SELECT * FROM fotografos WHERE nombre='Henri Cartier-Bresson'";
+	$peticion="SELECT * FROM fotografos WHERE nombre='Henry Cartier-Bresson'";
+	/*echo $peticion;*/
 	$resultado=$conexion->query($peticion);
 	$fila=$resultado->fetch_assoc();
 	?>
 	<div>
-		<?php echo '<div id="titulo2" align="left">'.$fila['nombre'].'</div>'; ?>
+		<?php  /*echo "$fila";*/ echo '<div id="titulo2" align="left">'.$fila['nombre'].'</div>'; ?>
+
 		<div id="menu">
 			<span id="menuitem"><a href="historia.html">Historia</a></span>
 			<span id="menuitem"><a href="fotografos.html">Fotógrafos</a></span>
