@@ -5,12 +5,14 @@ $conexion->set_charset("utf8");
 
 function pagina($resultadoregistro)
 {
+	/*arreglar el meta, que así explota*/
 	echo'<!DOCTYPE html>
 	<html>
 	<meta>
 		<head>
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 			<link rel="stylesheet" type="text/css" href="estilo.css">
+			<META HTTP-EQUIV="REFRESH" CONTENT="1.5;URL=http://localhost/dashboard/web/login.php">
 			<title></title>
 		</head>
 		<body id="bodyformulario"> 

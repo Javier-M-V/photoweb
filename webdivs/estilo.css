@@ -215,6 +215,16 @@
   		margin-top: 240px;
   		border-radius: 5px 5px 5px 5px;
 	}
+	#mensaje_login
+	{
+
+		margin-left: auto;
+  		margin-right: auto;
+		text-align: center;
+		position:relative;
+		margin-top: 5px;
+		color:hsl(0, 0%, 40%);
+	}
 	#bodyformulario /*Formulario de registro*/
 	{
 		background-color: hsl(0, 0%, 40%);	
@@ -227,8 +237,8 @@
 		text-align:left;
 		width: 100%;
 		position:relative;
-		top:185px;
-		left:539px;
+		margin-right: auto;
+		margin-left: auto;
 	}
 	#cajaformulario /*layout de la caja de registro*/
 	{
@@ -243,9 +253,12 @@
 	}
 	#resultadoregistro
 	{
-		
-		/*NO CONSIGO BAJAR ESTA MIERDA HORRIPILANTE*/
-		margin:auto; 
+		color:hsl(0, 0%, 40%);
+		margin-left: auto;
+  		margin-right: auto;
+		text-align: center;
+		position:relative;
+		margin-top: 10px; 
 		
 	}
 	.objetosformulario
