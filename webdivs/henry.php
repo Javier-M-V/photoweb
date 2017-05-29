@@ -1,4 +1,6 @@
-
+<?php
+	session_start();
+?>
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -10,7 +12,7 @@
 	<?php
 	$conexion=new mysqli('localhost','root','','photoweb');
 	$conexion->set_charset("utf8");
-	$peticion="SELECT * FROM fotografos WHERE nombre='Henry Cartier-Bresson'";
+	$peticion="SELECT * FROM fotografos WHERE nombre='Henri Cartier-Bresson'";
 	/*echo $peticion;*/
 	$resultado=$conexion->query($peticion);
 	$fila=$resultado->fetch_assoc();
@@ -22,7 +24,7 @@
 			<span id="menuitem"><a href="historia.html">Historia</a></span>
 			<span id="menuitem"><a href="fotografos.html">Fotógrafos</a></span>
 			<span id="menuitem"><a href="tecnica.html">Técnica</a></span>
-			<span id="menuitem"><a href="principal.html">Home</a></span>
+			<span id="menuitem"><a href="principal.php">Home</a></span>
 		</div>
 	<div id="linea" align="center"></div>
 	<div id="basefotografos" align="center">
@@ -69,6 +71,15 @@
 		</div>
 	</div>
 	<div id="linea" align="center"></div>
-	<div id="login" align="center" class="ancho"> <a href="login.html">Login</a></div>
+	<?php
+		if(isset($_SESSION['usuario']))/*o te lanza el enlace a login o te lanza el enlace a la "zona vip"*/
+		{
+			echo'<div id="login" align="center"><a href="vip.php">'.$_SESSION['usuario'].'/zona suscriptores</a></a></div>';
+		}
+		else
+		{
+			echo'<div id="login" align="center" class="ancho"> <a href="login.php">Login</a></div>';
+		}	
+	?>
 </body>
 </html>
