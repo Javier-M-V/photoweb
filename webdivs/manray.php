@@ -68,6 +68,7 @@
 			</div>
 		</div>
 	</div>
+	<div id="linea" align="center">
 	<?php
 		if(isset($_SESSION['usuario']))/*o te lanza el enlace a login o te lanza el enlace a la "zona vip"*/
 		{

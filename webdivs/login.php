@@ -52,7 +52,7 @@
 			{
 				$control=true;
 				$_SESSION['usuario']=$_POST['usuario'];
-				pagina("Bienvenido ".$_SESSION['usuario'],$control,$control);
+				pagina("Bienvenido ".$_SESSION['usuario'],$control);
 				break;
 			}
 		}
