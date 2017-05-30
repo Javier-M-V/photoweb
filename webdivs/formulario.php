@@ -12,19 +12,20 @@
 			<head>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<link rel="stylesheet" type="text/css" href="estilo.css">
-				'./*<META HTTP-EQUIV="REFRESH" CONTENT="1.5;URL=http://localhost/dashboard/web/login.php">*/.'
 				<title></title>
 			</head>
 			<body id="bodyformulario"> 
-			<div id="nombreshutter"><p>Shutter</p></div>
+			<div id="contenedorshutter">
+				<div id="nombreshutter"><p>Shutter</p></div>
+			</div>
 			<div id="cajaformulario">
-				<div style="margin-top: 20px;">
+				<div>
 					<form action="formulario.php" method="post">
 						<span class="objetosformulario">
-								Usuario: <input type="text" name="usuario"><br>
-								Contraseña: <input  type="password" name="password"><br>
-								Confirmar contraseña: <input  type="password" name="password2"><br>
-								e-mail: <input type="text" name="user"><br>
+								Usuario: <input style="width:85%;text-align:center;" type="text" name="usuario"><br>
+								Contraseña: <input style="width:85%;text-align:center;" type="password" name="password"><br>
+								Confirmar contraseña: <input style="width:85%;text-align:center;"  type="password" name="password2"><br>
+								e-mail: <input style="width:85%;text-align:center;" type="text" name="user"><br>
 						</span>
 						<button style="margin:auto; margin-top:5px;" type="submit">Completar registro</button>
 					</form>
