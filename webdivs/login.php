@@ -12,7 +12,7 @@
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>';
 				if($control==true)
 				{
-					echo '<META HTTP-EQUIV="REFRESH" CONTENT="1.5;URL=http://localhost/dashboard/web/principal.php">';
+					echo '<META HTTP-EQUIV="REFRESH" CONTENT="1.5;URL=http://localhost/webdivs/principal.php">';
 				}
 				echo '<title></title>
 				<link rel="stylesheet" type="text/css" href="estilo.css">

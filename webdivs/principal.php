@@ -13,9 +13,9 @@
 			<div>
 				<div id="titulo" align="left">Shutter</div>
 				<div id="menu">
-					<span id="menuitem"><a href="historia.html">Historia</a></span>
-					<span id="menuitem"><a href="fotografos.html">Fotógrafos</a></span>
-					<span id="menuitem"><a href="tecnica.html">Técnica</a></span>
+					<span id="menuitem"><a href="historia.php">Historia</a></span>
+					<span id="menuitem"><a href="fotografos.php">Fotógrafos</a></span>
+					<span id="menuitem"><a href="tecnica.php">Técnica</a></span>
 					<span id="menuitem"><a href="principal.php">Home</a></span>
 				</div>
 			<div id="basegris" align="center"><img height="100%" width="%" src="land.jpg"></div>
