@@ -64,7 +64,7 @@
 				<div class="region_der2">
 					<?php
 					$fila=$resultado->fetch_assoc();
-					echo '<span class="foto_fotografo"><img height="100%" width="%"  src="./fotografos/henry/'.$fila['ruta'].'"></span>';
+					echo '<span class="foto_fotografo"><img height="80%" width="%"  src="./fotografos/henry/'.$fila['ruta'].'"></span>';
 					mysqli_close($conexion);?>
 				</div>
 			</div>

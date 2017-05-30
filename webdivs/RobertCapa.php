@@ -19,10 +19,10 @@
 	<div>
 		<?php echo '<div id="titulo2" align="left">'.$fila['nombre'].'</div>'; ?>
 		<div id="menu">
-			<span id="menuitem"><a href="historia.html">Historia</a></span>
-			<span id="menuitem"><a href="fotografos.html">Fotógrafos</a></span>
-			<span id="menuitem"><a href="tecnica.html">Técnica</a></span>
-			<span id="menuitem"><a href="principal.html">Home</a></span>
+			<span id="menuitem"><a href="historia.php">Historia</a></span>
+			<span id="menuitem"><a href="fotografos.php">Fotógrafos</a></span>
+			<span id="menuitem"><a href="tecnica.php">Técnica</a></span>
+			<span id="menuitem"><a href="principal.php">Home</a></span>
 		</div>
 	<div id="linea" align="center"></div>
 	<div id="basefotografos" align="center">
@@ -62,7 +62,7 @@
 				<div class="region_der2">
 					<?php
 					$fila=$resultado->fetch_assoc();
-					echo '<span class="foto_fotografo"><img height="100%" width="%" src="./fotografos/cappa/'.$fila['ruta'].'"></span>';
+					echo '<span class="foto_fotografo"><img height="80%" width="%" src="./fotografos/cappa/'.$fila['ruta'].'"></span>';
 					mysqli_close($conexion);?>
 				</div>
 			</div>
