@@ -239,4 +239,26 @@ VALUES(4,'señor.jpg','Henri Cartier-Bresson','vertical');
 insert into imagenes(referencia_por_autor, ruta, autor,alineación)
 VALUES(5,'calgon.jpg','Henri Cartier-Bresson','horizontal');
 
+insert into consejos(idconsejo, consejo)
+VALUES(1,'Evita el JPEG, usa siempre que puedas el formato RAW de tu cámara. La calidad cuesta tiempo.');
+insert into consejos(idconsejo, consejo)
+VALUES(2,'No tengas miedo de acercarte al sujeto.');
+insert into consejos(idconsejo, consejo)
+VALUES(3,'Conoce las reglas y luego, sáltatelas.');
+insert into consejos(idconsejo, consejo)
+VALUES(4,'La regla de los tercios es importante, pero las relgas están para romperlas');
+insert into consejos(idconsejo, consejo)
+VALUES(5,'Es muy importante dejar espacio en la zona a la que la persona, mirada u objeto se dirigen, de lo contrario dará sensación de “apretujado”.');
+insert into consejos(idconsejo, consejo)
+VALUES(6,'A veces fotografiamos un monumento enorme con una persona delante que apenas se ve. ¡Pídele que se acerque más a la cámara, no muerde!');
+insert into consejos(idconsejo, consejo)
+VALUES(7,'Las líneas nos ayudan a dirigir la mirada del espectador al objeto de interés y también a transmitir mayor o menor dinamismo.');
+insert into consejos(idconsejo, consejo)
+VALUES(8,'Juega con la repetición de elementos para dar sentido de relación a las distintas partes de la imagen.');
+insert into consejos(idconsejo, consejo)
+VALUES(9,'Usa el entorno: una ventana, un marco de una puerta, o la vegetación pueden ayudar a enmarcar tu objeto de interés creando un mayor impacto.');
+insert into consejos(idconsejo, consejo)
+VALUES(10,'¡Quítale la tapa a la cámara antes de disparar!');
+
+
 /*lo que sigue está sin subir*/
