@@ -5,10 +5,16 @@ function pagina($logout)
 {
 	$conexion=new mysqli('localhost','root','','photoweb');
 	$conexion->set_charset("utf8");
-	$idquery=rand(1,10);
-	$query="SELECT consejo FROM consejos WHERE idconsejo=".$idquery.";";
+	$num=rand(1,10);
+	$query="SELECT consejo FROM consejos WHERE idconsejo=".$num.";";
 	$resultado_query=$conexion->query($query);
 	$fila=$resultado_query->fetch_assoc();
+	$query="SELECT * FROM noticias ORDER BY fecha DESC;";
+	$resultado_query=$conexion->query($query);
+	$filaA=$resultado_query->fetch_assoc();
+	$filaB=$resultado_query->fetch_assoc();
+	$filaC=$resultado_query->fetch_assoc();
+	$filaD=$resultado_query->fetch_assoc();//Se que esto no es lo más limpio del mundo, un while sería algo mejor, pero no he andado sobrado para hacer todo lo que me he propuesto.
 	echo
 	'<html>
 		<head>
@@ -16,7 +22,6 @@ function pagina($logout)
 			<link rel="stylesheet" type="text/css" href="estilo.css">
 			<style>
 			<style>
-			
 			</style>
 		</head>
 		<body id="cuerpo">
@@ -34,12 +39,31 @@ function pagina($logout)
 					<span id="consejo">
 						<p>Fotoconsejo :D</p>	
 					</span>
-					<hr id="separador"></hr>
 					<span>
-						<p style="font-style: oblique;"id="consejo">'.$fila['consejo'].'</p>
+						<p style="border-style: solid; border-width: 1px;"id="consejo">'.$fila['consejo'].'</p>
 					</span>
 				</div>
 				<div id="contenedorB">
+					<div class="noticiacontenedor">
+						<p style="text-align:center;">'.$filaA['titulo'].'</p>
+						<p style="text-align:center;">'.$filaA['fecha'].'</p>
+						<p class="noticia">'.$filaA['texto'].'</>
+					</div>
+					<div class="noticiacontenedor">
+						<p style="text-align:center;">'.$filaB['titulo'].'</p>
+						<p style="text-align:center;">'.$filaB['fecha'].'</p>
+						<p class="noticia">'.$filaB['texto'].'</>
+					</div>
+					<div class="noticiacontenedor">
+						<p style="text-align:center;">'.$filaC['titulo'].'</p>
+						<p style="text-align:center;">'.$filaC['fecha'].'</p>
+						<p class="noticia">'.$filaC['texto'].'</>
+					</div>
+					<div class="noticiacontenedor">
+						<p style="text-align:center;">'.$filaD['titulo'].'</p>
+						<p style="text-align:center;">'.$filaD['fecha'].'</p>
+						<p class="noticia">'.$filaD['texto'].'</>
+					</div>
 				</div>
 			</div>
 			<div id="linea" align="center"></div>
