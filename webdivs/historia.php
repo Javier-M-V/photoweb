@@ -20,7 +20,21 @@
 				<span id="menuitem"><a href="principal.php">Home</a></span>
 			</div>
 		<div id="linea" align="center"></div>
-		<div id="basegris" align="center"></div>
+		<div id="basehistoria" align="center">
+			<div id=cajahistoria>
+				<div id="cajaparrafohistoria">
+					<p class="textohistoria">
+					dadad</p>
+					<p class="textohistoria">
+					dasda</p>
+					<p class="textohistoria">
+					dadad</p>
+					<p class="textohistoria">
+					dadad</p>
+				</div>
+				
+			</div>
+		</div>
 		<div id="linea" align="center"></div>
 		<?php
 		if(isset($_SESSION['usuario']))/*o te lanza el enlace a login o te lanza el enlace a la "zona vip"*/

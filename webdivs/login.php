@@ -44,7 +44,7 @@
 	}
 	if(isset($_POST['usuario']))
 	{
-		$query="SELECT * FROM usuarios;";
+		$query="SELECT * FROM usuarios WHERE usuario='".$_POST['usuario']."';";
 		$resultado_query=$conexion->query($query);
 		while($fila=$resultado_query->fetch_assoc())
 		{
@@ -64,5 +64,9 @@
 	else
 	{
 		pagina("",$control);
+	}
+	if(isset($_SESSION['usuario']))
+	{
+		echo '<META HTTP-EQUIV="REFRESH" CONTENT="0;URL=http://localhost/webdivs/principal.php">';
 	}
 ?>
