@@ -12,12 +12,13 @@
 		<meta>
 			<head>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-				<link rel="stylesheet" type="text/css" href="estilo.css">';
+				<link rel="stylesheet" type="text/css" href="estilo.css">
+				<link rel="icon" type="image/png" href="./obturador.jpg">';
 				if($bool==true)
 				{
 					echo '<META HTTP-EQUIV="REFRESH" CONTENT="1.5;URL=http://localhost/webdivs/login.php">';
 				}
-				echo' <title></title>
+				echo' <title>Shutter</title>
 			</head>
 			<body id="bodyformulario"> 
 			<div id="contenedorshutter">

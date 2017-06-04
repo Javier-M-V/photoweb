@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jun 02, 2017 at 07:16 PM
+-- Generation Time: Jun 04, 2017 at 02:35 AM
 -- Server version: 10.1.22-MariaDB
 -- PHP Version: 7.1.4
 
@@ -189,10 +189,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`usuario`, `contrasenya`) VALUES
-('admin', 'admin'),
-('Javier', '11'),
-('Pepe', '11'),
-('yyy', 'eee');
+('admin', 'admin');
 
 --
 -- Indexes for dumped tables
