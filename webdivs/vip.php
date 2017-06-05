@@ -30,10 +30,10 @@ function pagina($logout)
 			<div>
 				<div id="titulo2" align="left">Shuter/'.$_SESSION['usuario'].'</div>
 				<div id="menu">
-					<span id="menuitem"><a href="historia.php">Historia</a></span>
-					<span id="menuitem"><a href="fotografos.php">Fotógrafos</a></span>
-					<span id="menuitem"><a href="tecnica.php">Técnica</a></span>
-					<span id="menuitem"><a href="principal.php">Home</a></span>
+					<span class="menuitem"><a href="historia.php">Historia</a></span>
+					<span class="menuitem"><a href="fotografos.php">Fotógrafos</a></span>
+					<span class="menuitem"><a href="tecnica.php">Técnica</a></span>
+					<span class="menuitem"><a href="principal.php">Home</a></span>
 				</div>
 			<div id="linea" align="center"></div>
 			<div id="basegris" align="center">

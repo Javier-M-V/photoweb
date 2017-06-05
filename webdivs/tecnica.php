@@ -16,12 +16,12 @@
 		<div>
 			<div id="titulo2" align="left">Técnica</div>
 			<div id="menu">
-				<span id="menuitem"><a href="historia.php">Historia</a></span>
-				<span id="menuitem"><a href="fotografos.php">Fotógrafos</a></span>
-				<span id="menuitem"><a href="tecnica.php">Técnica</a></span>
-				<span id="menuitem"><a href="principal.php">Home</a></span>
+				<span class="menuitem"><a href="historia.php">Historia</a></span>
+				<span class="menuitem"><a href="fotografos.php">Fotógrafos</a></span>
+				<span class="menuitem"><a href="tecnica.php">Técnica</a></span>
+				<span class="menuitem"><a href="principal.php">Home</a></span>
 			</div>
-		<div id="linea" align="center"></div>
+		<div class="linea" align="center"></div>
 		<div id="cajatecnica" align="center">
 			<div id="cajaluz">
 				<div>
@@ -58,7 +58,7 @@
 			</div>
 
 		</div>
-		<div id="linea" align="center"></div>
+		<div class="linea" align="center"></div>
 		<?php
 		if(isset($_SESSION['usuario']))/*o te lanza el enlace a login o te lanza el enlace a la "zona vip"*/
 		{
