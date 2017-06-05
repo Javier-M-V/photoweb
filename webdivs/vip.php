@@ -35,7 +35,7 @@ function pagina($logout)
 					<span class="menuitem"><a href="tecnica.php">Técnica</a></span>
 					<span class="menuitem"><a href="principal.php">Home</a></span>
 				</div>
-			<div id="linea" align="center"></div>
+			<div class="linea" align="center"></div>
 			<div id="basegris" align="center">
 				<div id="contenedorA">
 					<span id="consejo">
@@ -68,7 +68,7 @@ function pagina($logout)
 					</div>
 				</div>
 			</div>
-			<div id="linea" align="center"></div>
+			<div class="linea" align="center"></div>
 			<div id="login" align="center">'.$logout.'</div>
 		</body>
 	</html>';
